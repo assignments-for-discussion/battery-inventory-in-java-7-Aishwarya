@@ -11,7 +11,7 @@ public class Main {
         CountsBySoH counts = new CountsBySoH();
 
         for (int capacity : presentCapacities) {
-            double soh = (double) capacity / 120.0 * 100.0; // Calculate SoH for each battery
+            double soh = (double) capacity / 120.0 * 100.0; // Calculate SoH for each battery.
 
             if (soh > 80.0) {
                 counts.healthy++;
